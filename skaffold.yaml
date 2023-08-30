@@ -9,8 +9,6 @@ build:
   - image: ucluster-skaff-node-example
     buildpacks:
       builder: gcr.io/buildpacks/builder:v1
-deploy:
-  kubeContext: uc-skaff
 manifests:
   rawYaml:
   - k8s/web.yaml
